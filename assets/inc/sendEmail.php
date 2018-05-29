@@ -4,7 +4,7 @@
 
 // Replace this with your own email address
 
-$siteOwnersEmail = 'samtrapskin@mail.com';
+$siteOwnersEmail = 'samtrapskin@gmail.com';
 
 
 

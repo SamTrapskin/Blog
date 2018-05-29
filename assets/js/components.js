@@ -668,7 +668,7 @@ $(document).ready(function(){
 		var $this = $(this),
 			data = $(this).serialize(),
 			name = $this.find('#name'),
-			email = $this.find('samtrapskin@gmail.com'),
+			email = $this.find('#email'),
 			message = $this.find('#message'),
 			loader = $this.find('.form-loader-area'),
 			submitBtn = $this.find('button, input[type="submit"]');
