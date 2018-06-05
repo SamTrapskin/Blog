@@ -70,7 +70,7 @@ if($_POST) {
 
 	$message .= $contact_message;
 
-	$message .= "\r\n ----- \r\n This email was sent from your site's contact form. \r\n";
+	$message .= "\r\n ----- \r\n This email was sent from your web site contact form. \r\n";
 
 
 
@@ -112,7 +112,7 @@ if($_POST) {
 
 		} else {
 
-			$error['sending'] = "Something went wrong. Please try again.";
+			$error['sending'] = "Don't think that's working yet. Please try again.";
 
 			echo json_encode($error);
 
@@ -140,4 +140,3 @@ if($_POST) {
 
 
 
-?>
