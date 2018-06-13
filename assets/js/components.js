@@ -699,7 +699,7 @@ $(document).ready(function(){
 
 		$.ajax({
 			type: "POST",
-			url: "assets/inc/sendEmail.php",
+			url: " http://www.somedudesam.com/assets/inc/sendEmail.php",
 			data: data
 		}).done(function(res){
 
