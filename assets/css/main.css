@@ -4741,7 +4741,7 @@ FOOTER
 .footerimg  {
   width: 89px;
   height: 90px;
-
+  border-radius: 50%;
 }
 
 .footer__top {
