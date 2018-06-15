@@ -2565,6 +2565,9 @@ PORTFOLIO
         PORTFOLIO ITEMS
      */
 }
+.portfolio-headline{
+  color: #FEFEFE;
+}
 .portfolio .container .row:nth-child(2),
 .portfolio .container-fluid .row:nth-child(2) {
   margin-left: -7.5px;
