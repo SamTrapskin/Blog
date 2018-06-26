@@ -2567,7 +2567,7 @@ PORTFOLIO
 }
 .portfolio-headline{
   color: #FEFEFE;
-  margin-bottom: 15px;
+  mar
 }
 .portfolio .container .row:nth-child(2),
 .portfolio .container-fluid .row:nth-child(2) {
@@ -3997,7 +3997,6 @@ PAGE PORTFOLIO
 ==========================================*/
 .portfolio-page {
   background-color: #f7f7f7;
-  margin-bottom: 15px;
 }
 .portfolio-navigation {
   background-color: #fff;
