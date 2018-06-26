@@ -1814,6 +1814,7 @@ SECTION HEADING
   color: #333333;
   text-transform: uppercase;
   
+  margin-bottom: 15px;
   font-size: 30px;
   font-weight: 900;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -2566,12 +2567,9 @@ PORTFOLIO
      */
 }
 .wow  {
-  
-  margin-bottom: 16px;
 
 }
-
-.portfolio-headline{
+.portfolio-headline {
   color: #FEFEFE;
   margin-bottom: 15px;
 }
@@ -3661,9 +3659,8 @@ RESUME
   }
   /* hide back of pane during swap */
   .front, .back{
-    padding-left: 40px;
-
   /*backface-visibility*/
+  padding-left: 40px;
   -webkit-backface-visibility:hidden;
      -moz-backface-visibility:hidden;
       -ms-backface-visibility:hidden;
@@ -3672,6 +3669,7 @@ RESUME
   position:absolute;
   top:0;
   left:0;
+
   }
   /* front pane, placed above back */
 
@@ -4003,15 +4001,7 @@ PAGE PORTFOLIO
 ==========================================*/
 .portfolio-page {
   background-color: #f7f7f7;
-  margin-bottom: 15px;
 }
-
-.wow  {
-  
-  margin-bottom: 16px;
-
-}
-
 .portfolio-navigation {
   background-color: #fff;
   text-align: center;
@@ -4058,6 +4048,7 @@ PAGE PORTFOLIO
   color: #fff;
   text-transform: uppercase;
   font-size: 45px;
+  margin-bottom: 15px;
   font-weight: 900;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-style: normal;
@@ -4065,6 +4056,7 @@ PAGE PORTFOLIO
 @media only screen and (max-width: 991px) {
   .banner__content--2 .banner__content__text h2 {
     font-size: 42px;
+    margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -4421,117 +4413,7 @@ CONTACT FORM
 {
   background: #3B3B3B;
 }
-/*=========================================
-MAP
-==========================================*/
-.map__content {
-  position: relative;
-  background-image: url("../../img/map-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  -o-background-size: cover;
-     background-size: cover;
-  background-position: top;
-  min-height: 60px;
-  -webkit-transition: all 5s;
-  -o-transition: all 5s;
-  -moz-transition: all 5s;
-  transition: all 5s;
-  overflow: hidden;
-}
-.map__content:hover {
-  background-position: bottom;
-}
-.map__buttons {
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  left: 0;
-  top: 0;
-  background-color: rgba(112, 202, 201, 0.94);
-  z-index: 9;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
-}
-.map__buttons:hover {
-  background-color: rgba(112, 202, 201, 0.7);
-}
-.map__buttons .mdl-button--map {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-.map__buttons .mdl-button--map i {
-  color: #fff;
-  font-size: 24px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  line-height: 60px;
-  left: 0;
-  top: -100%;
-  margin: 0;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
-}
-.map__buttons .mdl-button--map span {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  line-height: 61px;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
-  font-size: 13px;
-}
-.map__buttons .mdl-button--map:hover {
-  background-color: transparent;
-  /* box-shadow: 0 10px 100px rgba(0,0,0,.2); */
-}
-.map__buttons .mdl-button--map:hover i {
-  top: 0;
-}
-.map__buttons .mdl-button--map:hover span {
-  top: 100%;
-}
-.map .map-wrapper {
-  margin-top: -400px;
-  -webkit-transition: all .6s;
-  -o-transition: all .6s;
-  -moz-transition: all .6s;
-  transition: all .6s;
-}
-.map .map-wrapper #map {
-  width: 100%;
-  height: 400px;
-}
-#map-close {
-  display: none;
-}
-#map-close i {
-  top: 100%;
-}
-#map-close span {
-  top: 0;
-}
-#map-close:hover i {
-  top: 0;
-}
-#map-close:hover span {
-  top: -100%;
-}
+
 /*=========================================
 SINGLE PORTFOLIO
 ==========================================*/
@@ -4684,75 +4566,7 @@ TESTIMONIAL
     margin-top: 45px;
   }
 }
-/*=========================================
-FUN FACT
-==========================================*/
-.fun-fact {
-  padding: 110px 0;
-  position: relative;
-}
-.fun-fact .bg-parallax {
-  background-image: url("../../img/bg/fun-bg.jpg");
-}
-@media only screen and (max-width: 991px) {
-  .fun-fact {
-    padding: 90px 0;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .fun-fact {
-    padding: 60px 0;
-  }
-}
-.fun-fact:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: rgba(21, 21, 21, 0.8);
-}
-.fun-fact .container,
-.fun-fact .container-fluid {
-  z-index: 1;
-  position: relative;
-}
-.fun-fact .single-fun {
-  text-align: center;
-}
-.fun-fact .single-fun__fact {
-  display: inline-block;
-  text-align: left;
-}
-@media only screen and (max-width: 479px) {
-  .fun-fact .single-fun__fact {
-    text-align: center;
-  }
-}
-.fun-fact .single-fun__fact__number i {
-  color: #fff;
-  font-size: 50px;
-  vertical-align: middle;
-}
-.fun-fact .single-fun__fact__number span {
-  color: #fff;
-  font-size: 36px;
-  font-weight: 500;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-style: normal;
-  margin-left: 16px;
-  vertical-align: middle;
-}
-.fun-fact .single-fun__fact h4 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 700;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-style: normal;
-  margin-top: 20px;
-}
+
 /*=========================================
 FOOTER
 ==========================================*/
@@ -4837,6 +4651,9 @@ FOOTER
   .footer__bottom__text p {
     line-height: 2;
   }
+}
+.linklogo {
+  color:#00BBB5;
 }
 /*
 .footer-top {
