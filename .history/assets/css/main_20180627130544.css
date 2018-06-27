@@ -4623,12 +4623,6 @@ SINGLE PORTFOLIO
 .portfolio-spec__single + .portfolio-spec__single {
   margin-top: 28px;
 }
-.link, a:hover {
-  color: red;
-}
-ul  {
-  list-style: square inside url("sqpurple.gif");
-}
 /*=========================================
 TESTIMONIAL
 ==========================================*/
