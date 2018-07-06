@@ -2351,6 +2351,7 @@ SERVICE
 SEARCH
 ==========================================*/
 .search {
+  float: right;
   display: inline-block;
   position: relative;
   padding-left: 23px;
@@ -3783,9 +3784,7 @@ RESUME
 
 
 .resume {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
     width: 100%;
     padding: 5px;
 }

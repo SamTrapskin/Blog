@@ -2351,6 +2351,7 @@ SERVICE
 SEARCH
 ==========================================*/
 .search {
+  float: right;
   display: inline-block;
   position: relative;
   padding-left: 23px;
