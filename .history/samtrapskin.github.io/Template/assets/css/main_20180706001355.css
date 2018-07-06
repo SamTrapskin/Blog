@@ -2562,12 +2562,8 @@ PORTFOLIO
 .link, a:hover {
   color: red;
 }
-li{
-  list-style-type: square;
-
-}
 ul  {
-  list-style-type: square;
+  ul.b {list-style-type: square;}
 }
 #myImg {
   border-radius: 5px;
@@ -4514,15 +4510,6 @@ CONTACT FORM
 /*=========================================
 SINGLE PORTFOLIO
 ==========================================*/
-ul {
-  list-style-type: sq
-  uare;
-}
-li {
-  list-style-type: square;
-}
-
-
 .portfolio-spec {
   padding-left: 30px;
 }

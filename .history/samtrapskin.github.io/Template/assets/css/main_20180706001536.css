@@ -4514,14 +4514,7 @@ CONTACT FORM
 /*=========================================
 SINGLE PORTFOLIO
 ==========================================*/
-ul {
-  list-style-type: sq
-  uare;
-}
-li {
-  list-style-type: square;
-}
-
+ul.b {list-style-type: square;}
 
 .portfolio-spec {
   padding-left: 30px;
