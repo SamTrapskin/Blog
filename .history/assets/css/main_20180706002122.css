@@ -4280,16 +4280,6 @@ PAGE PORTFOLIO
 .page-portfolio--03 .portfolio-spec__single--big p + p {
   margin-top: 26px;
 }
-ul  {
-  list-style-type: square;
-}
-
-li    {
-  list-style-type: square;
-}
-.bullets {
-  list-style-type: square;
-}
 /*=========================================
 PAGE BLOG
 ==========================================*/
@@ -4524,17 +4514,14 @@ CONTACT FORM
 /*=========================================
 SINGLE PORTFOLIO
 ==========================================*/
-
-ul  {
+ul {
+  list-style-type: sq
+  uare;
+}
+li {
   list-style-type: square;
 }
 
-li    {
-  list-style-type: square;
-}
-.bullets {
-  list-style-type: square;
-}
 
 .portfolio-spec {
   padding-left: 30px;
@@ -4622,15 +4609,8 @@ li    {
   margin-top: 28px;
 }
 ul  {
-  list-style-type: square;
-}
+  {list-style-type: square;}}
 
-li    {
-  list-style-type: square;
-}
-.bullets {
-  list-style-type: square;
-}
 /*=========================================
 TESTIMONIAL
 ==========================================*/
