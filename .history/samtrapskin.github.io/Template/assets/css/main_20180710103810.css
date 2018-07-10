@@ -1941,9 +1941,7 @@ BANNER
   }
 }
 .banner .bg-parallax {
-  float: right;
-  transform: scaleY(1.1);
-  background-image: url('../../img/wow.png');
+  background-image: url('../../img/bg/banner-bg.jpg');
   top: 0px !important;
   -webkit-transform: translateY(0);
      -moz-transform: translateY(0);
